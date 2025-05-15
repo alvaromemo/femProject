@@ -1,6 +1,7 @@
 services:
 
   adminer:
+    container_name: "adminer"
     image: adminer
     ports:
       - 9000:8080
